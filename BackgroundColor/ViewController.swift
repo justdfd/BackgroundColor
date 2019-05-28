@@ -14,10 +14,10 @@ class ReportsVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func loadView() {
-        view = MyView()
+        view = ReportView()
     }
 }
-class MyView:UIView {
+class ReportView:UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = UIColor.green
